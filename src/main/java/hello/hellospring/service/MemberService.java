@@ -9,12 +9,12 @@ import java.util.List;
 import java.util.Optional;
 
 // 비즈니스 로직을 넣는 클래스
-//@Service
+@Service
 public class MemberService {
 
     private final MemberRepository memberRepository;
 
-    //@Autowired
+    @Autowired
     public MemberService(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
